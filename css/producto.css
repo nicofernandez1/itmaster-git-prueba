@@ -1,0 +1,39 @@
+main {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#producto {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#producto img {
+    max-width: 100%;
+}
+
+#producto h2 a {
+    color: black;
+}
+
+.texto-izq {
+    text-align: left;
+}
+
+@media (max-width: 1020px) {
+    #producto {
+        width: 94%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 420px) {
+    #producto {
+        width: 99%;
+    }
+}
